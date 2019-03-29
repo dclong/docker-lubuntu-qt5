@@ -6,4 +6,4 @@ RUN apt-get update -y \
     && apt-get autoremove -y \
     && apt-get autoclean -y
 
-ENTRYPOINT ["/scripts/init.sh"]
+ENTRYPOINT ["/scripts/sys/init.sh"]
