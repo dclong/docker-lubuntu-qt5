@@ -1,6 +1,6 @@
-# [dclong/qt5](https://hub.docker.com/r/dclong/qt5/)
+# [dclong/lubuntu-qt5](https://hub.docker.com/r/dclong/lubuntu-qt5/)
 
-Ubuntu with basic utils in Docker.
+Lubuntu with Qt5 in Docker.
 
 ## Detailed Information
 

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . -t dclong/qt5
+docker build . -t dclong/lubuntu-qt5
