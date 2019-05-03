@@ -1,4 +1,4 @@
-FROM dclong/ubuntu_b
+FROM dclong/lubuntu
 
 RUN apt-get update -y \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
