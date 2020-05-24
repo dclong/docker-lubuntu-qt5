@@ -70,8 +70,8 @@ docker run -d \
     -e DOCKER_USER_ID=$(id -u) \
     -e DOCKER_PASSWORD=$(id -un) \
     -e DOCKER_GROUP_ID=$(id -g) \
-    -v $(pwd):/workdir \
-    -v $(dirname $HOME):/home_host \
+    -v "$(pwd)":/workdir \
+    -v "$(dirname $HOME)":/home_host \
     dclong/qt5
 ```
 The following command (only works in Linux) does the same as the above one 
@@ -85,8 +85,8 @@ docker run -d \
     -e DOCKER_USER_ID=$(id -u) \
     -e DOCKER_PASSWORD=$(id -un) \
     -e DOCKER_GROUP_ID=$(id -g) \
-    -v $(pwd):/workdir \
-    -v $(dirname $HOME):/home_host \
+    -v "$(pwd)":/workdir \
+    -v "$(dirname $HOME)":/home_host \
     dclong/qt5
 ```
 
